@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form method="GET">
+            <p>
+                <label>
+                    Name:
+                    <input type="text" name="name">
+                </label>
+            </p>
+            <p>
+                Age:<br>
+                <label>
+                    <input type="radio" name="age" value="18orunder" checked>
+                    &lt;18<br>
+                </label>
+                <label>
+                    <input type="radio" name="age" value="19to35">
+                    19-35<br>
+                </label>
+                <label>
+                    <input type="radio" name="age" value="36to48">
+                    36-48<br>
+                </label>
+                <label>
+                    <input type="radio" name="age" value="49orgreater">
+                    &gt;49
+                </label>
+            </p>
+            <p>
+                <label>
+                    Profession:
+                    <input type="text" name="profession">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Country:
+                    <select name="country">
+                        <option value="PT">Portugal</option>
+                        <option value="ES">Spain</option>
+                        <option value="FR">France</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="US">United States</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                Interests:<br>
+                <label>
+                    <input type="checkbox" name="interests" value="sports">
+                    Sports<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="reading">
+                    Reading<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="art">
+                    Art<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="videogames">
+                    Video Games<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="interests" value="movies">
+                    Movies
+                </label>
+            </p>
+            <p>
+                <label>
+                    How did you find out about our site?<br>
+                    <textarea name="discovered" rows="4" cols="50"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="submit">
+                </label>
+            </p>
+        </form>
+    </body>
+</html>
