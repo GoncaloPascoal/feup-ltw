@@ -112,9 +112,13 @@ body > header h2 {
 }
 
 article > header a {
+    font-size: 1.2em;
     color: #FFFFFF;
     text-decoration: none;
-    text-shadow: 3px 3px 2px #000000;
+    text-shadow: 3px 3px 3px #000000;
+    position: absolute;
+    padding: 1em 0 0 1em;
+    max-width: 15%;
 }
 
 article img {
@@ -133,17 +137,30 @@ article img {
     background-color: #F4655F;
     color: #FFFFFF;
     font-size: 0.8em;
-    padding: 0.3em;
+    padding: 1em;
 }
 
 #news article > footer a {
     color: inherit;
 }
 
+.author::before {
+    content: "By ";
+}
+
+.date {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.comments::after {
+    content: " comments"
+}
+
 body > footer {
     font-family: Georgia, serif;
     background-color: #2A2F33;
     color: #FFFFFF;
-    padding: 0.3em;
+    padding: 0.25em;
     margin-top: 1em;
 }
