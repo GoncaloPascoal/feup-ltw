@@ -133,10 +133,12 @@ article img {
 #news article {
     background-color: white;
     margin: 1em 1em 1em 0;
+    line-height: 1.4em;
 }
 
 #news article p {
     font-family: Georgia, serif;
+    font-size: 14px;
     padding-left: 1em;
     padding-right: 1em;
 }
