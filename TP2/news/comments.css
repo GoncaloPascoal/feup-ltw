@@ -46,4 +46,5 @@ section#comments > form > input {
     background-color: black;
     color: white;
     padding: 1em;
+    border: none;
 }

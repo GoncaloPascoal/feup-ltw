@@ -1,0 +1,29 @@
+
+section#register > h1 {
+    text-align: center;
+    width: 100%;
+}
+
+section#register > form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    margin: auto;
+    padding: 2em;
+}
+
+section#register label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+section#register > form > input {
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border: none;
+}
