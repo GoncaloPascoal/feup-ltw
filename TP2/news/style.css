@@ -47,8 +47,14 @@ body > header h2 {
 
 
 #hamburger {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0%;
+}
+
+.hamburger {
     display: none;
-    /* To be changed later! */
 }
 
 #menu > ul {
@@ -117,7 +123,7 @@ article > header a {
     text-shadow: 3px 3px 3px black;
     position: absolute;
     padding: 1em 0 0 1em;
-    max-width: 15%;
+    max-width: 20%;
 }
 
 article img {
