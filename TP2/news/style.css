@@ -32,6 +32,7 @@ body > header h2 {
 #signup {
     font-size: 13px;
     padding-bottom: 1em;
+    padding-right: 1em;
 }
 
 #signup :first-child {
@@ -41,6 +42,7 @@ body > header h2 {
 
 #signup :nth-child(2) {
     padding-left: 1em;
+    padding-right: 1em;
 }
 
 
