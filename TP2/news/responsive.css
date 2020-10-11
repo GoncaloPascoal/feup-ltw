@@ -3,7 +3,7 @@
         display: none;
     }
 
-    #menu, #news, body > footer, section#register {
+    #menu, #news, body > footer, #register, #login {
         grid-column-end: span 2;
         margin-right: 0;
     }
