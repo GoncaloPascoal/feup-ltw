@@ -1,10 +1,10 @@
 
-section#register > h1 {
+#register > h1, #login > h1 {
     text-align: center;
     width: 100%;
 }
 
-section#register > form {
+#register > form, #login > form {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -14,16 +14,34 @@ section#register > form {
     padding: 2em;
 }
 
-section#register label {
+#register label, #login label {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
 }
 
-section#register > form > input {
+#register label > input, #login label > input {
+    border-style: none;
+    border-bottom: 1px solid black;
+    height: 2em;
+}
+
+#register > form > input, #login form > input {
     align-self: flex-end;
     background-color: black;
     color: white;
     padding: 1em;
     border: none;
+}
+
+@media (max-width: 30em) {
+    #register, #login {
+        background-color: white;
+        padding: 1em 2em 2em 2em;
+    }
+
+    #register > form, #login > form {
+        width: 100%;
+        padding: 0;
+    }
 }

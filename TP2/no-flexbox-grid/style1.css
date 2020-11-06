@@ -1,0 +1,112 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    width: 50em;
+    margin: auto;
+    background-color: lavender;
+}
+
+body > #header {
+    background-color: gray;
+    color: white;
+    padding: 1em;
+}
+
+body > #header > h1 {
+    margin: 0em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+body > #header > h2 {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+#menu {
+    background-color: #330000;
+    font-family: Georgia, serif;
+}
+
+#menu > ul {
+    list-style-type: none;
+    padding: 0.75em 0 0.75em 1em;
+    margin: 0;
+}
+
+#menu > ul > li {
+    display: inline;
+    padding-right: 0.5em;
+}
+
+#menu > ul > li:not(:first-child) {
+    border-left: 1px solid white;
+    padding-left: 0.5em;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    background-color: white;
+    padding: 0 0.5em;
+}
+
+.news-item {
+    border-bottom: 1px solid black;
+}
+
+.news-item > h3 {
+    color: #330000;
+    font-size: 26px;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.news-item > img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.news-item > p {
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+.news-item > p.introduction {
+    font-style: italic;
+}
+
+.news-item > p a {
+    text-decoration: none;
+}
+
+.news-item > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-item > ul > li {
+    display: inline;
+}
+
+.news-item > ul > li > a {
+    text-decoration: none;
+    background-color: #404040;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    padding: 0.25em 0.5em;
+}
+
+#footer {
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+#footer > p {
+    margin: 0;
+    padding: 1em 0.5em;
+}
